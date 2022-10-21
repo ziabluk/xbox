@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    background: #373A3C;
+}
+.header__logo{
+    align-items: center;
+    height: 60px;
+    max-width: 1069.98px;
+    margin: 0 auto;
+    display: flex;
+}
+.header__text__container{
+    display: flex;
+    margin-left: 270px;
+}
+.header__text__block{
+    display: flex;
+    align-items: center;
+}
+.down-arrow{
+    width: 12px;
+    height: 6.55px;
+}
+.header__text__games{
+    padding-right: 15px;
+}
+.header__text__block1{
+    padding-right: 15px;
+}
+.indent{
+    padding-right: 28px;
+}
+.header__text__games{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.header__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.input__search{
+    padding: 8px 15px 9px 15px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-left: 37px; 
+}
+.user{
+    width: 20px;
+    height: 20px;
+}
+.heder__myxbox__container{
+    display: flex;
+    align-items: center;
+    margin-left: 29px;
+}
+.heder__myxbox__img{
+    padding-right: 9px;
+}
+.heder__myxbox__img__indent{
+    margin-left: 16px;
+}
+/*section*/
+.section__wrap{
+    background-image: url(../img/Star-Wars-Battlefront-II-combat.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.section__text__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+    
+}
+.section__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    z-index: 2;
+    color: #FFFFFF;
+}
+.position{
+    padding-top: 206px;
+    margin-left: 696px;
+}
+.section__container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container__sort{
+    display: flex;
+}
+.section__img__block{
+    width: 135px;
+    height: 648px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prev{
+    align-items: center;
+}
+.section__btn__green{
+    background: #8DD83D;
+    border-radius: 4px;
+    padding: 8px 27px 9px 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.section__btn__grey{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    padding: 8px 27px 9px 26px;
+}
+.section__btn__container{
+    margin-top: 135px;
+}
+.carousel-indicators{
+    width: 50px;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -618px;
+    left: -519px;
+}
+.section__text__header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+}
+.section__block{
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section__text__container1{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
