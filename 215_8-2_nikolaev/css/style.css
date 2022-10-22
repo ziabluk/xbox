@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 a{
     text-decoration: none;
 }
@@ -85,7 +89,7 @@ a{
     -o-background-size: cover;
     background-size: cover;
 }
-.section__text__title{
+.section__text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -158,7 +162,16 @@ a{
     bottom: -618px;
     left: -519px;
 }
-.section__text__header{
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+.section__text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -167,8 +180,7 @@ a{
     
     color: #FFFFFF;
 }
-.section__block{
-    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);    
+.section__block{    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,4 +189,225 @@ a{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+/*banner*/
+.banner__wrap{
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.section__containers{
+    display: flex;
+    max-width: 1088px;
+    margin: 0 auto;
+    padding-top: 43px;
+}
+.xbox_icon{
+    padding-top: 64px;
+}
+.title{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF; 
+}
+.section__text__header{
+    margin-top: 64px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+}
+.section__text__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+.section__block__cart{
+    width: 320px;
+    background: #FFFFFF;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #8DD83D;
+    border-radius: 4px;
+    margin-bottom: 162px;
+}
+.cart__indent{
+    margin-right: 64px;
+}
+.cart__indent1{
+    margin-right: 55px;
+}
+.cart__mixer{
+    width: 209px;
+    height: 61px;
+}
+.cart__img__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 318px;
+    height: 180px;
+}
+.cart__img{
+    width: 320px;
+    height: 180px;
+}
+.section__cart__title{
+    margin-bottom: 13px;
+    margin-left: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #435766;
+}
+.section__cart__text{
+    margin-bottom: 40px;
+    margin-left: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #435766;
+}
+.btn{
+    background: #8DD83D;
+    border-radius: 4px;
+    width: 278px;
+    height: 60px;
+    border: 0;
+}
+.cart__button{
+    margin-left: 22px;
+    margin-bottom: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    
+    
+    color: #FFFFFF;
+}
+.registration__input{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+    width: 204px;
+    height: 40px;
+    padding-left: 16px;
+    margin-bottom: 15px;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.registration__container{
+    max-width: 220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registration{
+    margin: 0 auto;
+}
+.registration__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #979797;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.registration__button{
+    background: #8DD83D;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    height: 50px;
+    margin-top: 5px;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FDFDFF;
+}
+.registration__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+}
+/*games*/
+.games__wrap{
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.games__title{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 114px;
+}
+.games__text{
+    padding-top: 10px;
+    padding-bottom: 39px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 539px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+.games__container{
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.button__games__block{
+    padding-bottom: 145px;
 }
